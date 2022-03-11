@@ -52,24 +52,24 @@ const MovieList = () => {
             }
         </div>
         <ReactPaginate
-        nextLabel="next >"
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={3}
-        marginPagesDisplayed={2}
-        pageCount={pageCount}
-        previousLabel="< previous"
-        pageClassName={styles.pageItem}
-        pageLinkClassName="page-link"
-        previousClassName={styles.paginationNavigation}
-        previousLinkClassName="page-link"
-        nextClassName={styles.paginationNavigation}
-        nextLinkClassName="page-link"
-        breakLabel="..."
-        breakClassName="page-item"
-        breakLinkClassName="page-link"
-        containerClassName={styles.pagination}
-        activeClassName={styles.paginationActive}
-        renderOnZeroPageCount={null}
+            nextLabel="next >"
+            onPageChange={handlePageClick}
+            pageRangeDisplayed={3}
+            marginPagesDisplayed={2}
+            pageCount={pageCount}
+            previousLabel="< previous"
+            pageClassName={styles.pageItem}
+            pageLinkClassName="page-link"
+            previousClassName={styles.paginationNavigation}
+            previousLinkClassName="page-link"
+            nextClassName={styles.paginationNavigation}
+            nextLinkClassName="page-link"
+            breakLabel="..."
+            breakClassName="page-item"
+            breakLinkClassName="page-link"
+            containerClassName={styles.pagination}
+            activeClassName={styles.paginationActive}
+            renderOnZeroPageCount={null}
       />
       </>
 

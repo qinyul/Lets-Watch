@@ -1,6 +1,4 @@
 .container{
-    position: absolute;
-    bottom: -52.5%;
     background-color: #352B34;
     height: max-content;
     width: 100%;
@@ -10,10 +8,12 @@
 }
 
 .container h1{
+    font-size: large;
     color: white;
 }
 
 .container p{
+    font-size: small;
     color:white
 }
 
@@ -26,4 +26,25 @@
 
 .footerItems p{
     cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    
+    .container{
+        width: 90%;
+        padding:0 1rem 0 1rem;
+    }
+
+    .container h1{
+        font-size: medium;
+    }
+    
+    .container p{
+        font-size: 11px;
+    }
+
+    .footerItems{
+        width: 90%;
+    }
+
 }

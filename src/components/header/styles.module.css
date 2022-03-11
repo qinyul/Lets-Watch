@@ -1,11 +1,12 @@
 
 .container{
-    position: absolute;
-    top:0%;
+    position: fixed;
+    top:0;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 10%;
+    padding: 0 1rem 0 1rem;
     justify-content: space-around;
     background-color: #352B34;
     align-items: center;
@@ -84,4 +85,34 @@
 
 .signBtn:hover{
     background-color: #f03249;
+}
+
+@media screen and (max-width:600px) {
+    
+    .container{
+        height: 70px;
+        width: 92%;
+    }
+
+    .container h1{
+        font-size: medium;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu p{
+        font-size: x-small;
+    }
+
+    .searchInputContainer{
+        display: none;
+    }
+
+    .signBtn{
+        width: 3rem;
+        height: 2rem;
+        font-size: 10px;
+    }
 }

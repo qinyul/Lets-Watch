@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .movieImageContainer{
@@ -40,6 +41,8 @@
     flex-direction: row;
     align-items: center;
 }
+
+
 
 .movieScore{
     color: white;
@@ -83,4 +86,34 @@
     list-style-type: none;
     cursor: pointer;
     color: white;
+}
+
+@media screen and (max-width:600px) {
+
+    .movieImageContainer{
+        height: fit-content;
+        margin: 20px;
+        width: 36%;
+        margin:10px 10px 0 10px;
+    }
+
+    .movieImg{
+        width: 100%;
+        height: 200;
+    }
+    
+    .movieTitle{
+        font-size: 11px;
+    }
+
+    .movieType{
+        font-size: 11px;
+    }
+
+
+
+    .movieScore{
+        font-size: 11px;
+    }
+
 }

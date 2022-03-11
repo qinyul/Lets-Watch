@@ -41,11 +41,11 @@ function App() {
       <div>
         {
           !movie ? <p>loading</p>
-                 : <>
+                 : <div style={{display:'flex',flex:1,flexDirection:'column'}}>
                      <Header />
                      <Content />
                      <Footer />
-                   </>
+                   </div>
         }
      
       </div>
