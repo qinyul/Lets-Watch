@@ -1,0 +1,45 @@
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    width: 100%;
+    background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.movieListHeaderContainer{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movieListHeaderContainer h1{
+    color: white;
+}
+
+.movieListHeader{
+    display: flex;
+    width: 45%;
+}
+
+.navigationContainer{
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
+
+.movieListHeader{
+    display: flex;
+    flex-direction: row;
+}

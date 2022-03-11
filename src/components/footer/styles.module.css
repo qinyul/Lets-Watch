@@ -1,0 +1,29 @@
+.container{
+    position: absolute;
+    bottom: -52.5%;
+    background-color: #352B34;
+    height: max-content;
+    width: 100%;
+    padding:0 5rem 0 5rem;
+    border-top: #DD5060;
+    border-style: solid;
+}
+
+.container h1{
+    color: white;
+}
+
+.container p{
+    color:white
+}
+
+.footerItems{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.footerItems p{
+    cursor: pointer;
+}

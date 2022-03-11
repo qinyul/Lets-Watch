@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movieImageContainer{
+    margin:10px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieImageContainer p{
+    cursor: pointer;
+}
+
+.movieImg{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.movieTitle{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    font-weight: 600;
+}
+
+.movieType{
+    color: rgb(221, 80, 96);
+    margin:0; 
+}
+
+.scoreContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.movieScore{
+    color: white;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.pagination{
+    display: flex;
+    flex-direction:row;
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30); 
+    width: max-content;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pageItem{
+    margin: 0px 5px 0px 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding:1px;
+    color: white;
+}
+
+.paginationActive{
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.paginationNavigation{
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+}
